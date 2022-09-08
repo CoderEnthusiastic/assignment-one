@@ -1,0 +1,54 @@
+.contact {
+  text-align: center;
+}
+
+.box {
+  display: flex;
+  margin-left: 38%;
+}
+
+h2 {
+  margin-bottom: 1%;
+}
+
+#abc {
+  width: 140%;
+  padding: 2%;
+  height: 3vh;
+}
+
+.surname {
+  margin-left: 4%;
+}
+
+.email {
+  margin: 2%;
+  margin-left: 5%;
+}
+
+.email input {
+  padding: 0.4%;
+  width: 30%;
+}
+
+.message {
+    margin-left: 5%;
+
+}
+
+
+#textmessage {
+    padding: 4%;
+    width: 30%;
+}
+
+#contact {
+    margin-left: 10%;
+    margin: 2%;
+    padding: 0.9%;
+    border: none;
+    background-color: rgb(35, 35, 138);
+    color: #fff;
+    border-radius: 5px 15px;
+    cursor: pointer;
+}

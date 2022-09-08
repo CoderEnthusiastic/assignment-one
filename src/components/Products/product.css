@@ -1,0 +1,36 @@
+
+.product {
+    padding: 4%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 0.5%;
+    transition-timing-function: ease-out;
+    transition-duration: 250ms;
+    transition-delay: 20ms;
+    object-fit: contain;
+    border-radius: 20px;
+}
+
+
+.box2 {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-left: 10%;
+}
+
+.box1 {
+    text-align: center;
+}
+
+#buy {
+    border: none;
+    background-color: rgb(31, 31, 122);
+    border-radius: 2px;
+    color: white;
+    padding: 2%;
+    cursor: pointer;
+}
+
+.product:hover {
+    transform: scale(1.02);
+}

@@ -1,0 +1,48 @@
+.header {
+  display: flex;
+  object-fit: contain;
+  align-items: center;
+  background-color: #040010;
+  padding: 1%;
+  color: white;
+}
+
+.name {
+  margin-right: 5px;
+}
+
+.logo {
+  display: flex;
+  flex: 1;
+}
+
+.logo img {
+  object-fit: contain;
+}
+
+.header div {
+  margin-right: 20px;
+  padding: 0.5%;
+  transition-timing-function: ease;
+  transition-duration: 100ms;
+}
+
+.header div:hover {
+  cursor: pointer;
+}
+
+.Home:hover {
+  border-bottom: 2px solid aqua;
+}
+
+.About:hover {
+  border-bottom: 2px solid aqua;
+}
+
+.Contact:hover {
+  border-bottom: 2px solid aqua;
+}
+
+.Products:hover {
+  border-bottom: 2px solid aqua;
+}
